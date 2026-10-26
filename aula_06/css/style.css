@@ -1,0 +1,43 @@
+.linha{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 900px;
+    
+}
+.card {
+  background: #dceefd;
+  border: 1px solid #dddd;
+  border-radius: 10px;
+  padding: 10px;
+  margin: 10px;
+  text-align: center;
+}
+.card h3 {
+  font-size: 18px;
+  color: #3b3838;
+}
+.card figure{
+    margin: 0;
+}
+.card img{
+    border-radius: 5px;
+    max-width: 100%;
+
+}
+.card figcaption{
+    margin-bottom: 10px;
+    font-style: italic;
+    color: rgb(81,82,82);
+}
+.card button{
+    background-color: rgb(9,9,222);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 3px 5px 3px 5px;
+    cursor: pointer;
+}
+.card button:hover{
+    background: rgb(41,41,164);
+}

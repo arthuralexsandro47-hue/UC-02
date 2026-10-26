@@ -1,0 +1,85 @@
+body {
+  background: #f2f8f9;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body > header {
+  background: #6678c8;
+  font-size: 20px;
+  color: #ececec;
+  text-align: center;
+  padding: 10px;
+}
+
+body > header > p {
+  font-size: px;
+}
+
+body > main {
+  display: flex;
+  gap: 27px;
+  padding: 16px;
+}
+
+
+body > main > h3 {
+  text-align: center;
+}
+
+.turismo {
+  background: #6a82ee;
+  margin: 0;
+  padding: 10px;
+  height: 620px;
+  width: 300px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.turismo figure {
+  margin: 10px;
+  text-align: center;
+  height: auto;
+}
+
+
+/* Configuração de imagem */
+.turismo img {
+  border-radius: 5px;
+  display: block;
+  margin: 0 auto;
+  height: 150px;
+}
+
+/* Texto da imagem */
+.turismo figcaption {
+  padding: 10px;
+  font-style: italic;
+  text-align: justify;
+  color: #ececec;
+}
+
+.turismo h4 {
+  color: #ececec;
+  font-size: 18px;
+  text-align: center;
+  height: 5px;
+}
+
+.turismo button {
+  background-color: rgb(212, 146, 25);
+  height: 45px;
+  font-size: 18px;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 3px 5px 3px 5px;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+}
+
+.turismo button:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
+}
