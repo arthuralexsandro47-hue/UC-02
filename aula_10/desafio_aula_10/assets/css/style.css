@@ -1,0 +1,82 @@
+header {
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+header img{
+    height: 100px;
+}
+
+nav{
+    display: flex;
+    gap: 10px;
+}
+
+nav a{
+    color: aliceblue;
+    font-size: 25px;
+}
+
+nav button{
+    border: none;
+    background-color: blue;
+    color: aliceblue;
+    padding: 0px 10px;
+    border-radius: 5px;
+}
+
+
+
+
+/* página principal */
+
+main{
+    background-color: black;
+    color: aliceblue;
+    align-items: center;
+}
+
+.lista-de-cursos{
+    display: flex;
+    gap: 10px;
+}
+
+.lista-de-cursos img{
+    border-radius: 5px;
+    height: 150px;
+}
+
+.legenda1 h3{
+    font-size: 20px;
+}
+
+.legenda1 p{
+    font-size: 13px;
+}
+
+.legenda1{
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+
+.legenda2{
+    padding: 0px 0px;
+    height: 350px;
+}
+
+
+.legenda2>h4{
+    font-size: 15px;
+    height;
+}
+
+.legenda2>h5{
+    font-size: 12px;
+    height: 340px;
+}
