@@ -11,10 +11,12 @@ main h3{
 
 main{
     padding: 20px;
+    display: flex;
+    justify-content: center;
 }
 
 .form-cadastro{
-    max-width: 60%;
+    width: 60%;
     background-color: #ffffff;
     align-items: center;
     padding: 20px;
@@ -36,21 +38,38 @@ input, select{
     flex-direction: column;
 }
 
-.duas-colunas input{
+
+
+.duas-colunas, .tres-colunas {
     display: flex;
-    justify-content: space-between;
+    flex-direction: row;
+    gap: 15px;
 }
 
-.duas-colunas label{
-    width: 45%;
-    padding: 5px;
-    align-items: top;
-
-    
+.campo {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
 }
 
+.campo label {
+    margin-bottom: 5px;
+}
 
-.tres-colunas{
-    display: flex;
-    justify-content: space-between;
+.campo input, .campo select {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #4530e3;
+    color: white;
+    padding: 5px 15px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #055e5e;
 }
