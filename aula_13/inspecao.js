@@ -1,5 +1,10 @@
+//A coordenação quer que o técnico visualize etapas de inspeção de um
+//veículo na ordem correta.
+
+
+// CAPÍTULO 1 — ATIVIDADE 5 DE 5
+
+
 console.log("1. Conferir pneus");
-// Seguir para o próximo passo.
 console.log("2. Verificar luzes");
-// Seguir para o próximo passo.
 console.log("3. Registrar resultado");
